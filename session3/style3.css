@@ -1,0 +1,8 @@
+.block-text{
+	width: 500px;
+	float: left;
+}
+.block-img img{
+	width: 500px;
+	float: right;
+}

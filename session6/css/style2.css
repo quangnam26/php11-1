@@ -1,0 +1,24 @@
+a{
+	text-decoration: none;
+}
+a:link{
+	color:gray;
+}
+a:visited{
+	color: green;
+}
+a:hover{
+	color:red;
+}
+#google{
+	height: 600px;
+	background-color: green;
+}
+#facebook{
+	height: 600px;
+	background-color: blue;
+}
+#yahoo{
+	height: 600px;
+	background-color: yellow;
+}

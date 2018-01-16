@@ -1,0 +1,15 @@
+ul{
+	list-style-type: none;
+}
+ul li{
+	float: left;
+	background-color: blue;
+	border: 2px solid blue;
+}
+ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	border: 2px solid white;
+	color: white;
+}

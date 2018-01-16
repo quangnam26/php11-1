@@ -1,0 +1,25 @@
+/*Set color for h1*/
+h1{
+	color: red;
+}
+p{
+	font-weight: bold;
+}
+.p1{
+	color: blue;
+}
+p.p2{
+	color: red;
+}
+p.p3{
+	color: green;
+}
+h2#id1{
+	color: blue;
+}
+h2#id2{
+	color: red;
+}
+h2#id3{
+	color: green;
+}

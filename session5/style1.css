@@ -1,0 +1,29 @@
+body{
+	background: linear-gradient(to bottom, #fff ,#ffd9b3);
+}
+#box{
+	height: 500px;
+	width: 500px;
+	border: 2px solid green;
+	border-radius: 20px 30px 50px 70px; 
+	box-shadow: 5px 5px 4px 3px yellow;
+/*	margin: 10px;
+	margin-right: 30px;
+	margin-top: 50px;*/
+	margin: 10px 20px 30px 45px;
+	background-color: green;
+	float: left;
+}
+#box1{
+	height: 500px;
+	width: 500px;
+	border: 2px solid green;
+	border-radius: 20px 30px 50px 70px; 
+	box-shadow: 5px 5px 4px 3px yellow;
+/*	margin: 10px;
+	margin-right: 30px;
+	margin-top: 50px;*/
+	margin: 10px 20px 30px 45px;
+	background-image: url('avatar.jpg');
+	float: left;
+}

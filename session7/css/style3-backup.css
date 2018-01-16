@@ -1,0 +1,164 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+#container{
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid gray;
+}
+#header{
+	height: 120px;
+}
+#logo{
+	width: 30%;
+	float: left;
+	border-right: 1px solid gray;
+	height: 100%;
+	line-height: 100px;
+	vertical-align: middle;
+	background-color: green;
+}
+#slogan{
+	width: 69.8%;
+	float: left;
+	height: 100%;
+	line-height: 100px;
+	vertical-align: middle;
+	background-color: #CEF6EC;
+}
+#main{
+	height: 450px;
+}
+#slider{
+	width: 100%;
+	border-top: 1px solid gray;
+	height: 100px;
+	line-height: 100px;
+	vertical-align: middle;
+	background-color: #F7BE81;
+}
+#news{
+	width: 100%;
+	border-top: 1px solid gray;
+	height: 100px;
+	background-color: #00FF00;
+}
+.news-1, .news-2, .news-3, .news-4{
+	width: 24.8%;
+	border-right: 1px solid gray;
+	height: 100px;
+	float: left;
+	line-height: 100px;
+	vertical-align: middle;
+}
+.news-4{
+	border-right: none;
+}
+#content-sidebar{
+	height: 250px;
+	border-top: 1px solid gray;
+	background-color: #6E6E6E;
+}
+#sidebar{
+	width: 35%;
+	float: left;
+	border-right: 1px solid gray;
+	height: 100%;
+	line-height: 250px;
+	vertical-align: middle;
+}
+#content{
+	width: 64.5%;
+	float: left;
+	height: 100%;
+	line-height: 250px;
+	vertical-align: middle;
+}
+#footer{
+	height: 100px;
+	border-top: 1px solid gray;
+	background-color: #F8E0EC;
+}
+#footer-1{
+	width: 49.3%;
+	float: left;
+	border-right: 1px solid gray;
+	height: 100%;
+	line-height: 100px;
+	vertical-align: middle;
+}
+#footer-2{
+	width: 49.3%;
+	float: left;
+	height: 100%;
+	line-height: 100px;
+	vertical-align: middle;
+}
+@media screen and (max-width: 768px){
+	#logo{
+		width: 49.9%;
+	}
+	#slogan{
+		width: 49.8%;
+	}
+	#news{
+		height: 200px;
+	}
+	.news-1, .news-2, .news-3, .news-4{
+		width: 49.5%;
+	}
+	.news-1{
+		border-bottom: 1px solid gray;
+	}
+	.news-2{
+		border-right: none;
+		border-bottom: 1px solid gray;
+	}
+	#sidebar{
+		width: 100%;
+		height: 150px;
+		border-bottom: 1px solid gray;
+		line-height: 150px;
+		vertical-align: middle;
+	}
+	#content{
+		width: 100%;
+		height: 100px;
+		line-height: 100px;
+		vertical-align: middle;
+	}
+	#footer{
+		clear: both;
+	}
+}
+@media screen and (max-width: 480px){
+	#logo{
+		width: 100%;
+	}
+	#slogan{
+		display: none;
+	}
+	#news{
+		height: 300px;
+	}
+	.news-1, .news-2, .news-3{
+		width: 100%;
+	}
+	.news-2{
+		border:none;
+	}
+	.news-3{
+		border-top: 1px solid gray;
+	}
+	#content-sidebar{
+		height: 100px;
+	}
+	.news-4, #sidebar, #footer-2{
+		display: none;
+	}
+	#footer-1{
+		width: 100%;
+	}
+}

@@ -1,0 +1,30 @@
+#header{
+	height: 150px;
+	color: #F7BE81;
+}
+#content{
+	height: 300px;
+}
+#footer{
+	height: 150px;
+}
+.block-green{
+	font-size: 25px;
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: line-through;
+	text-shadow: -2px -2px 4px red;
+}
+#content .block-green{
+	color: green;
+}
+h1,h2{
+	color: blue  !important;
+}
+.classdemo{
+	color: yellow;
+	text-align: right;
+
+
+}

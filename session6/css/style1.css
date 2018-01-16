@@ -1,0 +1,12 @@
+ul{
+	list-style-type: circle;
+}
+ul li.music{
+	list-style-image: url('../img/music.ico');
+}
+ul li:nth-child(4){
+	list-style-image: url('../img/music.ico');
+}
+ul li:nth-child(even){
+	list-style-image: url('../img/music.ico');
+}

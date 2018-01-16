@@ -1,0 +1,28 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.san-joaquin{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px dashed green;
+	
+}
+.san-joaquin-description{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px dashed green;
+	margin-top: 20px;	
+}
+.round-1{
+	border: 2px solid green;
+	padding: 20px;
+}
+.round-2{
+	margin-left: 385px;
+	border: 2px dashed green;
+	padding: 20px;
+	width: 400px;
+}

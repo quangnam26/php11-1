@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+    font-family: fontDepOne;
+    src: url('../font/AguafinaScript-Regular.ttf');
+}
+@font-face {
+    font-family: fontDepTwo;
+    src: url('../font/AlexBrush-Regular.ttf');
+}
+.example1{
+	font-size: 20px;
+	font-family: fontDepOne;
+}
+.example3{
+	font-size: 20px;
+	font-family: fontDepTwo;
+}
+.example2{
+	display: none;
+}
+ul#menu{
+	list-style-type: none;	
+	margin: 10px 0 0 30px;
+}
+ul#menu li{
+	float: left;
+	border: 2px solid green;
+	width: 150px;
+}
+ul#menu li a{
+	text-decoration: none;
+	padding: 3px 10px;
+}
+ul.drop-menu{
+	list-style-type: none;
+}
+ul.drop-menu li{
+	display: none;
+}
+ul#menu li.drop-down:hover ul.drop-menu li{
+	display: block;
+}
+h2.font-h2{
+	font-family: sans-serif;
+}
